@@ -1,0 +1,33 @@
+{
+  "name": "star-field",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve",
+    "build": "webpack",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael55555/star-field.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michael55555/star-field/issues"
+  },
+  "homepage": "https://github.com/Michael55555/star-field",
+  "keywords": [],
+  "author": "Michael55555",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "gh-pages": "^3.2.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
